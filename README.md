@@ -2,5 +2,5 @@
 
 <ul>
   <li><a href="IntroToHtmlJan/Jans Cool Awesome Website.html" target="_blank">IntroTOHTML</a> </li>
-<li><a href="citc1300/INTRO-TO-HTML-5-AND-CSS/Demo.html" target="_blank">Intro T0 HTML5 AND CSS</a></li>
+<li><a href="INTRO-TO-HTML-5-AND-CSS/index.html" target="_blank">Intro T0 HTML5 AND CSS</a></li>
 </ul>
