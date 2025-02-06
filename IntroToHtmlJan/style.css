@@ -1,0 +1,57 @@
+body {
+background-color: #f8f8c8;
+}
+
+h1 {color: rgb(125, 104, 113);
+}
+
+.center {text-align: center;
+}
+
+h2 {color: rgb(125, 104, 113);
+}
+
+h3 {color: rgb(125, 104, 113);
+}
+
+.right {
+    float: right;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+P {font-size: 120%;
+}
+
+h1 {font-size: 190%;
+}
+h2 {font-size: 180%;
+}
+h3 {font-size: 180%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
