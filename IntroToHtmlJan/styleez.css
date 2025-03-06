@@ -1,0 +1,730 @@
+body {
+    background-image: url(Images/Maris/mari.jpg);
+    background-size: cover;
+    position: center;
+    margin: 5%;
+    padding: 0% auto;
+    }
+
+main {
+    margin: 3%;
+}
+
+ h1 {
+     font-family: "Sigmar", serif;
+     font-weight: 400;
+     font-style: normal;
+       text-align:center;
+       text-decoration: underline;
+       text-decoration-color:#BFB963;
+       color:white;
+       text-decoration-thickness: 10px;
+ }
+ 
+ P {
+     margin: 2%;
+     text-align: center;
+     color: white;
+     font-size: large;
+ }
+ 
+ nav ul {
+     list-style-type: none;
+     margin: 0% auto;
+     align-self: center;
+     text-align: center;
+ }
+ 
+ nav li {
+     display: inline-block;
+     align-self: center;
+ }
+ 
+ nav a {
+     text-decoration:wavy;
+     color: white;
+     padding: 5px 10px;
+     align-self: center;
+     text-align: center;        
+     font-family: "Unkempt", serif;
+     font-weight: 700;
+     font-size: larger;
+     font-size: 200%;
+     font-style: normal;
+ }
+ 
+ a:hover {
+     font-size:xx-large;
+     color: #2F1073;
+ }
+
+ #Lav {
+    width: 30%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2px;
+    width: 110%;
+    justify-content: center;
+   }
+
+   h5 {
+    display: none;
+   }
+
+.img {
+    width: 30%;
+}
+
+#fly {
+    width: 70%;
+}
+
+h2 {
+    color: white;
+}
+
+p#bttm {
+    text-align: center;
+}
+ #Mari {
+    width: 70%;
+ }
+ .mlily {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 10%;
+  }
+
+  #MariLily {
+    width: 90%;
+    align-items: center;
+  }
+
+#MariP {
+    width: 90%;
+}
+
+#columns {
+    column-count: 3;
+    column-gap: 5%;
+    padding: 10px;
+    column-rule-style: dashed;
+    column-rule: 2px solid #F29C94;
+}
+h2 {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+      text-align:left;
+      text-decoration: underline;
+      text-decoration-color:#CEA7D9;
+      color:white;
+      text-decoration-thickness: 10px;
+      text-shadow: 2px 2px #301D59;
+}
+
+#Mfly {
+    width: 30%;
+}
+
+#Mlils {
+    width: 40%;
+}
+
+h3 {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+      text-align:center;
+      text-decoration: underline;
+      text-decoration-color:#CEA7D9;
+      color:white;
+      text-decoration-thickness: 10px;
+      text-shadow: 2px 2px #301D59;
+}
+
+P {
+    font-size: 100%;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#col {
+    width: 60%;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#mariposa {
+    width: 20%
+}
+
+/*Mobile Styles*/
+@media (min-width: 320px) {
+    main {
+        margin: 3%;
+    }
+    
+     h1 {
+         font-family: "Sigmar", serif;
+         font-weight: 400;
+         font-style: normal;
+           text-align:center;
+           text-decoration: underline;
+           text-decoration-color:#BFB963;
+           color:white;
+           text-decoration-thickness: 10px;
+     }
+     
+     .image {
+        width: 10%;
+
+     }
+
+
+     P {
+         margin: 80%;
+         text-align: center;
+         color: white;
+         font-size: large;
+     }
+     
+     nav ul {
+         list-style-type: none;
+         margin: 0% auto;
+         align-self: center;
+         text-align: center;
+     }
+     
+     nav li {
+         display: inline-block;
+         align-self: center;
+     }
+     
+     nav a {
+         text-decoration:wavy;
+         color: white;
+         padding: 5px 10px;
+         align-self: center;
+         text-align: center;        
+         font-family: "Unkempt", serif;
+         font-weight: 700;
+         font-size: larger;
+         font-size: 60%;
+         font-style: normal;
+     }
+     
+     a:hover {
+         font-size:xx-large;
+         color: #2F1073;
+     }
+    
+    #container {
+
+        width: 110%;
+        justify-content: center;
+       }
+    
+    .img {
+        width: 30%;
+    }
+    
+    #fly {
+        width: 70%;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    p#bttm {
+        text-align: center;
+    }
+     #Mari {
+        width: 70%;
+     }
+
+     #mfly {
+        width:10%;
+     }
+     .mlily {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 100%;
+      }
+    
+      #MariLily {
+        width: 90%;
+        align-items: center;
+      }
+    
+    #MariP {
+        width: 90%;
+    }
+    
+    #columns {
+        column-count: 3;
+        column-gap: 5%;
+        margin-top: 20%;
+        padding: 0%;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+        width: 120%;
+    }
+    h2 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100%;
+          text-align:left;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+          display: none;
+    }
+    #blahz {
+width: 20%;
+display: none;
+    }
+    #Mlils {
+        width: 80%;
+    }
+    
+    h3 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+          text-align:center;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+    }
+    
+    P {
+        font-size: 100%;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin: 2%;
+        text-align: center;
+        color: white;
+        font-size: 80%;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #txt {
+        width: 120%;
+    }
+    
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #col {
+        width: 20%;
+        padding: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #mariposa {
+        width: 20%
+    }
+}
+
+/*Tablet Styles*/
+@media (min-width: 768px) {
+    main {
+        margin: 3%;
+    }
+    
+     h1 {
+         font-family: "Sigmar", serif;
+         font-weight: 400;
+         font-style: normal;
+           text-align:center;
+           text-decoration: underline;
+           text-decoration-color:#BFB963;
+           color:white;
+           text-decoration-thickness: 10px;
+     }
+     
+     P {
+         margin: 2%;
+         text-align: center;
+         color: white;
+         font-size: large;
+     }
+     
+     nav ul {
+         list-style-type: none;
+         margin: 0% auto;
+         align-self: center;
+         text-align: center;
+     }
+     
+     nav li {
+         display: inline-block;
+         align-self: center;
+     }
+     
+     nav a {
+         text-decoration:wavy;
+         color: white;
+         padding: 5px 10px;
+         align-self: center;
+         text-align: center;        
+         font-family: "Unkempt", serif;
+         font-weight: 700;
+         font-size: larger;
+         font-size: 200%;
+         font-style: normal;
+     }
+
+     .image {
+        width: 120%;
+     }
+     
+     a:hover {
+         font-size:xx-large;
+         color: #2F1073;
+     }
+    
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2px;
+        width: 110%;
+        justify-content: center;
+       }
+    
+    .img {
+        width: 30%;
+    }
+    
+    #fly {
+        width: 70%;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    p#bttm {
+        text-align: center;
+        font-size: 150%;
+    }
+     #Mari {
+        width: 70%;
+     }
+     .mlily {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 80%;
+        margin: 10%;
+      }
+
+      .image {
+        width: 90%;
+      }
+    
+      #MariLily {
+        width: 90%;
+        align-items: center;
+      }
+    
+    #MariP {
+        width: 90%;
+    }
+    
+    #columns {
+        column-count: 3;
+        column-gap: 5%;
+        padding: 10px;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+    }
+    h2 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+          text-align:left;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+    }
+    
+    #Mlils {
+        width: 40%;
+    }
+
+    #mfly {
+        width: 50%;
+    }
+
+    #txt {
+        width: 100%;
+    }
+    
+    h3 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+          text-align:center;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+    }
+    P {
+        font-size: 100%;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin: 2%;
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    #blahz {
+        width: 90%;
+        display: block;
+        font-size: 160%;;
+    }
+    
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #col {
+        width: 60%;
+        padding: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #mariposa {
+        width: 20%
+    }
+}
+
+/*Desktop Styles*/
+@media (min-width: 1200px) {
+    main {
+        margin: 3%;
+    }
+    
+     h1 {
+         font-family: "Sigmar", serif;
+         font-weight: 400;
+         font-style: normal;
+           text-align:center;
+           text-decoration: underline;
+           text-decoration-color:#BFB963;
+           color:white;
+           text-decoration-thickness: 10px;
+     }
+     
+     P {
+         margin: 2%;
+         text-align: center;
+         color: white;
+         font-size: large;
+     }
+     
+     nav ul {
+         list-style-type: none;
+         margin: 0% auto;
+         align-self: center;
+         text-align: center;
+     }
+     
+     nav li {
+         display: inline-block;
+         align-self: center;
+     }
+     
+     nav a {
+         text-decoration:wavy;
+         color: white;
+         padding: 5px 10px;
+         align-self: center;
+         text-align: center;        
+         font-family: "Unkempt", serif;
+         font-weight: 700;
+         font-size: larger;
+         font-size: 200%;
+         font-style: normal;
+     }
+     
+     a:hover {
+         font-size:xx-large;
+         color: #2F1073;
+     }
+    
+     #Lav {
+        width: 30%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2px;
+        width: 110%;
+        justify-content: center;
+       }
+    
+    .img {
+        width: 30%;
+    }
+    
+    #mfly {
+        width: 40%;
+    }
+    
+    h2 {
+        color: white;
+    }
+    
+    p#bttm {
+        text-align: center;
+    }
+     #Mari {
+        width: 70%;
+     }
+     .mlily {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 80%;
+        margin: 10%;
+      }
+    
+      #MariLily {
+        width: 90%;
+        align-items: center;
+      }
+    
+    #MariP {
+        width: 90%;
+    }
+    
+    #columns {
+        column-count: 3;
+        column-gap: 5%;
+        padding: 10px;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+    }
+    h2 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+          text-align:left;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+    }
+    
+    #Mlils {
+        width: 40%;
+    }
+    
+    h3 {
+        font-family: "Sigmar", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+          text-align:center;
+          text-decoration: underline;
+          text-decoration-color:#CEA7D9;
+          color:white;
+          text-decoration-thickness: 10px;
+          text-shadow: 2px 2px #301D59;
+    }
+    
+    P {
+        font-size: 100%;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin: 2%;
+        text-align: center;
+        color: white;
+        font-size: 110%;
+        padding: 3%;
+    }
+    
+    /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #col {
+        width: 60%;
+        padding: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #mariposa {
+        width: 20%
+    }
+}

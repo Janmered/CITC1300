@@ -1,0 +1,404 @@
+    body {
+        background-image: url(images/background.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        padding: auto;
+        }
+    
+    h1 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color:#261C14;
+            color:white;
+            text-decoration-thickness: 10px;
+        }
+        
+#song {
+    text-align: left;
+    color: white;
+    font-size: medium;
+}
+
+        h2 {
+            font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+          text-shadow: 2px 2px #000000;
+            font-size: 150%;
+            text-align:left;
+            text-decoration: underline;
+            text-decoration-color:white;
+            text-underline-offset: 5%;
+            color: #AF7B4B;
+        }
+        
+        h3 {
+            font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+          text-shadow: 2px 2px #000000;
+            font-size: 180%;
+            text-align:left;
+            text-decoration: underline;
+            text-decoration-color:white;
+            text-underline-offset: 5%;
+            text-decoration-style: double;
+            color: #AF7B4B;
+        }
+        
+        P{
+            margin: 2%;
+            text-align: center;
+            color: white;
+        }
+        
+        main {
+            display:flex;
+            margin: auto;
+            padding: 2%;
+        }
+    
+        section {
+            width: 20%;
+            padding: 0%;
+            margin: 0% auto;
+            border-style: hidden;
+        }
+        
+        aside {
+            width: 70%;
+            padding: 50%;
+            margin: 0% auto;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        article {
+            padding: 10px;
+        }
+        
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0% auto;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration:wavy;
+            color: white;
+            padding: 5px 10px;
+        
+        }
+        .Container {
+            display: flex;
+            margin: auto;
+        }
+        
+        #Whiteflower {
+            width: 100%;
+        }
+        
+        #lilyvalley {
+            width: 50%;
+        }
+        
+        .heading {
+            float: right;
+        }
+        
+        #para {
+            float: right;
+        }
+
+        #par {
+            float: left;
+        }
+
+
+/*Mobile Styles*/
+@media (min-width: 320px) {
+    #lilyvalley {
+        width: 50%;
+        float: right;
+    }
+    P {
+
+        margin: 2%;
+        text-align: center;
+        color: white;
+    font-size: 80%;
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+    h2 {
+        font-size: 100%;
+    }
+    article {
+        padding: 0px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+     
+    nav ul {
+        list-style-type: none;
+        margin: 0% auto;
+        font-size: 20%;
+        padding: 0%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+
+    aside {
+        width: 20%;
+        padding: 10%;
+        margin: 0% auto;
+    }
+
+#col {
+    width: 60%;
+    padding: 10%;
+}
+
+    #container {
+        width: 60%;
+    margin: 10%;
+
+    }
+
+    P {
+        font-size: 80%;
+    }
+
+    #Whiteflower {
+        width: 50%;
+    }
+
+}
+
+/*Desktop Styles*/
+@media (min-width: 1200px) {
+    #lilyvalley {
+        width: 20%;
+        float: right;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+    article {
+        padding: 0px;
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+     
+    nav a {
+        font-family: "Unkempt", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    a:hover {
+        font-size: larger;
+        color: #261C14;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0% auto;
+        font-size: 200%;
+        padding: 0%;
+
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+    aside {
+        width: 20%;
+        padding: 10%;
+        margin: 30% auto;
+    }
+
+#col {
+    width: 60%;
+    padding: 10%;
+}
+
+    #container {
+        width: 60%;
+    margin: 10%;
+
+    }
+
+    P {
+
+            margin: 2%;
+            text-align: center;
+            color: white;
+        font-size: 150%;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    #Whiteflower {
+        width: 20%;
+    }
+
+
+}
+
+/*Tablet Styles*/
+@media (min-width: 768px) {
+    h1 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color:#261C14;
+            color:white;
+            text-decoration-thickness: 10px;
+        }
+        
+#song {
+    text-align: left;
+    color: white;
+    font-size: medium;
+}
+
+        h2 {
+            font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+          text-shadow: 2px 2px #000000;
+            font-size: 150%;
+            text-align:left;
+            text-decoration: underline;
+            text-decoration-color:white;
+            text-underline-offset: 5%;
+            color: #AF7B4B;
+        }
+        
+        h3 {
+            font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+          text-shadow: 2px 2px #000000;
+            font-size: 180%;
+            text-align:left;
+            text-decoration: underline;
+            text-decoration-color:white;
+            text-underline-offset: 5%;
+            text-decoration-style: double;
+            color: #AF7B4B;
+        }
+        
+        P{
+            margin: 2%;
+            text-align: center;
+            color: white;
+        }
+        
+        main {
+            display:flex;
+            margin: auto;
+            padding: 2%;
+        }
+    
+        section {
+            width: 20%;
+            padding: 0%;
+            margin: 0% auto;
+            border-style: hidden;
+        }
+        
+        aside {
+            width: 70%;
+            padding: 50%;
+            margin: 0% auto;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        article {
+            padding: 10px;
+        }
+        
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0% auto;
+        }
+        
+        nav li {
+            display: inline-block;
+        }
+        
+        nav a {
+            text-decoration:wavy;
+            color: white;
+            padding: 5px 10px;
+        
+        }
+        .Container {
+            display: flex;
+            margin: auto;
+        }
+        
+        #Whiteflower {
+            width:40%;
+        }
+        
+        #lilyvalley {
+            width: 50%;
+        }
+        
+        .heading {
+            float: right;
+        }
+        
+        #para {
+            float: right;
+        }
+
+        #par {
+            float: left;
+        }
+        P {
+
+            margin: 2%;
+            text-align: center;
+            color: white;
+        font-size: 150%;
+        font-family: "Lexend", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    }
