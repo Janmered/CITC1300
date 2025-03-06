@@ -1,0 +1,555 @@
+body {
+    background: url('Images/bohobg.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 5%;
+}
+h1 {
+    font-family: "Sigmar", serif;
+      font-weight: 400;
+      font-style: normal;
+        text-align:center;
+        text-decoration: underline;
+        text-decoration-color:#F29C94;
+        color:#735145;
+        text-decoration-thickness: 10px;
+    }
+
+    h2 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:left;
+            text-decoration: underline;
+            text-decoration-color:#BF6D65;
+            color:#FCC187;
+            text-decoration-thickness: 10px;
+        }
+
+        h3 {
+            font-family: "Sigmar", serif;
+              font-weight: 400;
+              font-style: normal;
+                text-align:left;
+                text-decoration: underline;
+                text-decoration-color:#BF6D65;
+                color:#FCC187;
+                text-decoration-thickness: 10px;
+            }
+            h4 {
+                font-family: "Sigmar", serif;
+                  font-weight: 400;
+                  font-style: normal;
+                    text-align:center;
+                    font-size: x-large;
+                    text-decoration: underline;
+                    text-decoration-color:#BF6D65;
+                    color:#FCC187;
+                    text-decoration-thickness: 2px;
+                }
+    
+
+#Upper_Section {
+    columns: 100px;
+    column-count: 2;
+    margin: 8%;
+    column-rule-style: dashed;
+    column-rule: 2px solid #F29C94;
+    column-gap: 5cm;
+}
+
+ #lower_section {
+        column-count: 3;
+        column-gap: 10%;
+        padding: 2px;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+    }
+
+#rose {
+    width: 20%;
+}
+
+#TP {
+    width: 20%;
+    flex-direction: column;
+}
+
+#PY {
+    width: 20%;
+}
+        
+nav ul {
+    list-style-type: none;
+    margin: 0% auto;
+    align-self: center;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    align-self: center;
+}
+
+nav a {
+    text-decoration:wavy;
+    color: #F2DF80;
+    padding: 5px 10px;
+    align-self: center;
+    text-align: center;        
+    font-family: "Unkempt", serif;
+    font-weight: 700;
+    font-size: xx-large;
+    font-style: normal;
+}
+
+a:hover {
+    font-size: medium;
+    color: #401D1A;
+}
+
+    P {
+        font-size: 150%;
+        font-family: "Lexend", serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+ /*Mobile Styles*/
+@media (min-width: 320px) {
+    h1 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color:#F29C94;
+            color:#735145;
+            text-decoration-thickness: 10px;
+        }
+    
+        h2 {
+            font-family: "Sigmar", serif;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 140%;
+                text-align:left;
+                text-decoration: underline;
+                text-decoration-color:#BF6D65;
+                color:#FCC187;
+                text-decoration-thickness: 10px;
+            }
+
+            .section {
+                justify-content: center;
+            }
+    
+            h3 {
+                font-family: "Sigmar", serif;
+                  font-weight: 400;
+                  font-style: normal;
+                    text-align:center;
+                    text-decoration: underline;
+                    text-decoration-color:#BF6D65;
+                    color:#FCC187;
+                    text-decoration-thickness: 10px;
+                }
+                h4 {
+                    font-family: "Sigmar", serif;
+                      font-weight: 400;
+                      font-style: normal;
+                        text-align:center;
+                        font-size: x-large;
+                        text-decoration: underline;
+                        text-decoration-color:#BF6D65;
+                        color:#FCC187;
+                        text-decoration-thickness: 2px;
+                        margin: 0 auto;
+                    }
+        
+    
+    #Upper_Section {
+        columns: 100px;
+        column-count: 2;
+        margin: 8%;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+        column-gap: 5cm;
+    }
+    
+     #lower_section {
+            column-count: 3;
+            column-gap: 10%;
+            padding: 2px;
+            column-rule-style: dashed;
+            column-rule: 2px solid #F29C94;
+        }
+    
+    #rose {
+        width: 80%;
+    }
+    
+    #TP {
+        width: 20%;
+        flex-direction: column;
+    }
+    
+    #PY {
+        width: 80%;
+    }
+            
+    nav ul {
+        list-style-type: none;
+        margin: 0% auto;
+        align-self: center;
+        text-align: center;
+    }
+    #RedO {
+        width: 20%
+    }
+    #Opng {
+        width: 10%;
+    }
+
+    #dend {
+        width: 90%;
+    }
+    
+    #txt {
+        width: 100%;
+    }
+
+    .RedO {
+        position: relative;
+        text-align: center;
+        color: white;
+        width: 80%;
+        margin: 10%;
+      }
+          /* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+    nav li {
+        display: inline-block;
+        align-self: center;
+    }
+    
+    nav a {
+        text-decoration:wavy;
+        color: #F2DF80;
+        padding: 5px 10px;
+        align-self: center;
+        text-align: center;        
+        font-family: "Unkempt", serif;
+        font-weight: 700;
+        font-size: 70%;
+        font-style: normal;
+    }
+    
+        P {
+            font-size: 50%;
+            font-family: "Lexend", serif;
+            font-weight: 400;
+            font-style: normal;
+    
+        }
+    }    
+/*Tablet Styles*/
+@media (min-width: 768px) {
+    h1 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color:#F29C94;
+            color:#735145;
+            text-decoration-thickness: 10px;
+        }
+    
+        h2 {
+            font-family: "Sigmar", serif;
+              font-weight: 400;
+              font-style: normal;
+                text-align:left;
+                text-decoration: underline;
+                text-decoration-color:#BF6D65;
+                color:#FCC187;
+                text-decoration-thickness: 10px;
+                font-size: 110%;
+            }
+    
+            h3 {
+                font-family: "Sigmar", serif;
+                  font-weight: 400;
+                  font-style: normal;
+                    text-align:left;
+                    text-decoration: underline;
+                    text-decoration-color:#BF6D65;
+                    color:#FCC187;
+                    text-decoration-thickness: 10px;
+                }
+                h4 {
+                    font-family: "Sigmar", serif;
+                      font-weight: 400;
+                      font-style: normal;
+                        text-align:center;
+                        font-size: x-large;
+                        text-decoration: underline;
+                        text-decoration-color:#BF6D65;
+                        color:#FCC187;
+                        text-decoration-thickness: 2px;
+                    }
+        
+    
+    #Upper_Section {
+        columns: 100px;
+        column-count: 2;
+        margin: 8%;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+        column-gap: 5cm;
+    }
+    
+     #lower_section {
+            column-count: 3;
+            column-gap: 10%;
+            padding: 2px;
+            column-rule-style: dashed;
+            column-rule: 2px solid #F29C94;
+        }
+    
+    #rose {
+        width: 100%;
+    }
+    
+    #TP {
+        width: 50%;
+        flex-direction: column;
+    }
+    
+    #PY {
+        width: 100%;
+    }
+            
+    nav ul {
+        list-style-type: none;
+        margin: 0% auto;
+        align-self: center;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        align-self: center;
+    }
+    
+    nav a {
+        text-decoration:wavy;
+        color: #F2DF80;
+        padding: 5px 10px;
+        align-self: center;
+        text-align: center;        
+        font-family: "Unkempt", serif;
+        font-weight: 700;
+        font-size: xx-large;
+        font-style: normal;
+    }
+    
+    a:hover {
+        font-size: medium;
+        color: #401D1A;
+    }
+    
+        P {
+            font-size: 100%;
+            font-family: "Lexend", serif;
+            font-weight: 400;
+            font-style: normal;
+    
+        }
+        #RedO {
+            width: 20%
+        }
+        #Opng {
+            width: 30%;
+        }
+        
+        #txt {
+            width: 100%;
+        }
+
+        #dend {
+            width: 90%;
+        }
+
+        .RedO {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 80%;
+            margin: 10%;
+          }
+              /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/*Desktop Styles*/
+@media (min-width: 1200px) {
+    h1 {
+        font-family: "Sigmar", serif;
+          font-weight: 400;
+          font-style: normal;
+            text-align:center;
+            text-decoration: underline;
+            text-decoration-color:#F29C94;
+            color:#735145;
+            text-decoration-thickness: 10px;
+        }
+    
+        h2 {
+            font-family: "Sigmar", serif;
+              font-weight: 400;
+              font-style: normal;
+              font-size: 160%;
+                text-align:left;
+                text-decoration: underline;
+                text-decoration-color:#BF6D65;
+                color:#FCC187;
+                text-decoration-thickness: 10px;
+            }
+    
+            h3 {
+                font-family: "Sigmar", serif;
+                  font-weight: 400;
+                  font-size: 160%;
+                  font-style: normal;
+                    text-align:left;
+                    text-decoration: underline;
+                    text-decoration-color:#BF6D65;
+                    color:#FCC187;
+                    text-decoration-thickness: 10px;
+                }
+                h4 {
+                    font-family: "Sigmar", serif;
+                      font-weight: 400;
+                      font-style: normal;
+                        text-align:center;
+                        font-size: x-large;
+                        text-decoration: underline;
+                        text-decoration-color:#BF6D65;
+                        color:#FCC187;
+                        text-decoration-thickness: 2px;
+                    }
+        
+    
+    #Upper_Section {
+        columns: 100px;
+        column-count: 2;
+        margin: 8%;
+        column-rule-style: dashed;
+        column-rule: 2px solid #F29C94;
+        column-gap: 5cm;
+    }
+    
+     #lower_section {
+            column-count: 3;
+            column-gap: 10%;
+            padding: 2px;
+            column-rule-style: dashed;
+            column-rule: 2px solid #F29C94;
+        }
+    
+    #TP {
+        width: 40%;
+        flex-direction: column;
+    }
+
+    #Opng {
+        width: 20%;
+    }
+    
+    #dend {
+        width: 100%;
+    }
+
+    #PY {
+        width: 90%;
+    }
+            
+    nav ul {
+        list-style-type: none;
+        margin: 0% auto;
+        align-self: center;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+        align-self: center;
+    }
+    
+    nav a {
+        text-decoration:wavy;
+        color: #F2DF80;
+        padding: 5px 10px;
+        align-self: center;
+        text-align: center;        
+        font-family: "Unkempt", serif;
+        font-weight: 700;
+        font-size: xx-large;
+        font-style: normal;
+    }
+    
+    a:hover {
+        font-size: medium;
+        color: #401D1A;
+    }
+    
+        P {
+            font-size: 150%;
+            font-family: "Lexend", serif;
+            font-weight: 400;
+            font-style: normal;
+    
+        }
+
+        #RedO {
+            width: 20%
+        }
+
+        #txt {
+            width: 100%;
+        }
+
+        #dend {
+            width: 100%;
+        }
+
+        .RedO {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 80%;
+            margin: 10%;
+          }
+              /* Centered text */
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    }    
