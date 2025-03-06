@@ -1,5 +1,5 @@
 body {
-    background-image: url(Images/Maris/mari.jpg);
+    background: url(Images/Maris/mari.jpg);
     background-size: cover;
     position: center;
     margin: 5%;
